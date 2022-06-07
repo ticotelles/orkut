@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+    font-size: 13px verdana arial sans-serif;
+    text-decoration: none;
+    color: #333;
+    
+}
+
+.orkut{
+    background: #D4DDED;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    
+}
+
+.container{
+    display: grid;
+    background: #D4DDED;
+    height: 411px;
+    width: 1000px;
+    grid-gap: 10px;
+    justify-self: center;
+    margin: 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 7fr 1fr 1fr 1fr;
+
+}
+
+header{
+    background: #FCFDDE;
+    grid-column: 1/3; 
+    
+    text-align: center;
+    
+
+}
+
+.p1{
+    color: red;
+    font-weight: bold;
+}
+
+main{
+    background: white;
+    grid-row: 2/6; 
+}
+
+main img{
+    height: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px
+    
+}
+.p2{
+    margin-top: 7px;
+    text-align: center;
+}
+.p3{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-align: center;
+}
+.p4{
+    margin-top: 2px;
+    text-align: center;
+}
+.link1D{
+    color: #cc1f89;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link2D{
+    color: #cc1f89;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link3D{
+    color: #cc1f89;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside{
+    background-color: #E8EEFA; 
+    grid-row: 2/4;
+  
+}
+
+.aside2{
+    background-color: #E8EEFA;
+    display: grid;
+    grid-row: 4/6;  
+}
+
+.loginp1{
+    text-align: center;
+    margin-top: 15px;
+    color: #333;
+    
+}
+.loginp2{
+    padding-left: 20px;
+    margin-top: 10px;
+    
+    
+}
+.loginp3{
+    padding-left: 24px;
+    margin-top: 5px;
+}
+.loginp4{
+    padding-left: 55px;
+    margin-top: 5px;
+    
+}
+.loginp5{
+    text-align: center; 
+    margin-top: 5px;
+    margin-left: 45px;
+    color: gray;
+}
+.loginp6{
+    
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #0047be;;
+    
+}
+.loginp7{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+footer{
+    background-color: #BCCDEA;
+    grid-column: 1/3;
+    grid-row: 6/7;
+    height: 20px;
+    text-align: center;
+    
+}
+
+.links{
+    color: #0047be;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.button{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 3px;
+    
+}
+
+.check{
+    
+}
+
+.interrogacao{
+    margin-left: 70px;
+    color: gray;
+}
