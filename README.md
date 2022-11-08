@@ -18,7 +18,7 @@ Página inicial do Orkut - Projeto Pessoal.
 <br>
 
 <p align="center">
-  <img alt="calendario da copa" src=".github/preview.jpg" width="100%">
+  <img alt="Página inicial do Orkut" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
